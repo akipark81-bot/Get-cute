@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F7EFFF"/>
+      <stop offset="1" stop-color="#FFEFF7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- רקע עגול עדין -->
+  <circle cx="100" cy="100" r="96" fill="url(#bg)" />
+
+  <!-- כוכבים -->
+  <g fill="#FFD86B" opacity=".9">
+    <path d="M35 60 l6 3 3 6 3-6 6-3-6-3-3-6-3 6-6 3z"/>
+    <path d="M158 70 l5 2 2 5 2-5 5-2-5-2-2-5-2 5-5 2z"/>
+    <path d="M150 140 l7 3 3 7 3-7 7-3-7-3-3-7-3 7-7 3z"/>
+  </g>
+
+  <!-- ראש -->
+  <circle cx="100" cy="92" r="42" fill="#FFE0CF" stroke="#C8B6FF" stroke-width="3"/>
+
+  <!-- שיער (בוב חמוד) -->
+  <path d="M58 86 q42 -40 84 0 v8 q0 28 -42 28 q-42 0 -42 -28z"
+        fill="#4E3E63" stroke="#C8B6FF" stroke-width="3" />
+  <!-- קשת קטנה -->
+  <circle cx="88" cy="66" r="8" fill="#FFC9E1" stroke="#C8B6FF" stroke-width="2"/>
+  <circle cx="112" cy="66" r="8" fill="#FFC9E1" stroke="#C8B6FF" stroke-width="2"/>
+  <rect x="88" y="63" width="24" height="6" rx="3" fill="#FFD7E7" stroke="#C8B6FF" stroke-width="2"/>
+
+  <!-- עיניים + סומק + חיוך -->
+  <circle cx="86" cy="92" r="4.2" fill="#3A2F66"/>
+  <circle cx="114" cy="92" r="4.2" fill="#3A2F66"/>
+  <circle cx="76" cy="102" r="5" fill="#FFB7CF" opacity=".7"/>
+  <circle cx="124" cy="102" r="5" fill="#FFB7CF" opacity=".7"/>
+  <path d="M92 106 q8 6 16 0" stroke="#3A2F66" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- כתפיים / בגד עליון עגול -->
+  <path d="M64 130 q36 18 72 0 v14 q0 8 -10 11 l-26 8 -26-8 q-10-3 -10-11z"
+        fill="#FFC9E1" stroke="#C8B6FF" stroke-width="3"/>
+</svg>
