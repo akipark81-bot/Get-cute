@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fit Wardrobe</title>
+  <meta name="theme-color" content="#F4E9FF" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="assets/icon-192.png" />
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => navigator.serviceWorker.register('sw.js'));
+    }
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Fit Wardrobe</h1>
+    <p id="msg">Hello! If you see this, the app is up 🎀</p>
+    <button id="mark">Mark workout for today ✨</button>
+    <p class="hint" id="hint">Not marked yet</p>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
